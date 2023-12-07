@@ -11,7 +11,7 @@ export const createUser = async (req, res) => {
     } = req.body;
 
     // Membuat user baru
-    const newUser = await User.create({
+    const newUser = await user.create({
       username,
       email,
       password,
