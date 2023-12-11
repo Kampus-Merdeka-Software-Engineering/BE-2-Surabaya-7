@@ -32,12 +32,12 @@ const Booking = db.define("bookings", {
   date: {
     type: DataTypes.DATEONLY,
   },
-  // departure: {
-  //   type: DataTypes.TIME,
-  // },
-  // arrival: {
-  //   type: DataTypes.TIME,
-  // },
+  departureTime: {
+    type: DataTypes.TIME,
+  },
+  arrivalTime: {
+    type: DataTypes.TIME,
+  },
   passengers: {
     type: DataTypes.STRING,
   },
