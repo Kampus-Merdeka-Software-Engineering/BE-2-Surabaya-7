@@ -38,7 +38,7 @@ const Booking = db.define("bookings", {
   // arrival: {
   //   type: DataTypes.TIME,
   // },
-  passangers: {
+  passengers: {
     type: DataTypes.STRING,
   },
   totalPrice: {
